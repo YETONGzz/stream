@@ -14,6 +14,9 @@ public class Reduce {
 
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 3, 2, 8, 11, 4);
+
+
+
         // 求和方式1
         Optional<Integer> sum = list.stream().reduce((x, y) -> x + y);
         // 求和方式2
