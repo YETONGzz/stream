@@ -33,7 +33,7 @@ public class Person {
         return name;
     }
 
-    public void setName(String name) {
+    public  void setName(String name) {
         this.name = name;
     }
 
@@ -68,4 +68,6 @@ public class Person {
     public void setArea(String area) {
         this.area = area;
     }
+
+
 }
